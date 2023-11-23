@@ -1,3 +1,6 @@
+library IEEE;
+use IEEE.Std_Logic_1164.all;
+
 entity unpack is
 port (
 		A: in std_logic_vector(31 downto 0);
@@ -7,7 +10,7 @@ port (
 		exponent: out std_logic_vector(7 downto 0));
 end unpack;
 
-architecture Structural of floating_point_multiplier is
+architecture Structural of unpack is
 
 begin
 -- 31: Sign Bit
