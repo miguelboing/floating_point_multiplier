@@ -39,6 +39,4 @@ end component;
 		port map(A=>result_std(45 downto 23), B=>result_std(46 downto 24), s=>result_std(47), F=>result);
 		exp_norm <= result_std(47);
 
-
-
 end Structural;
